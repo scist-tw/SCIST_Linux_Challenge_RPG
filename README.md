@@ -1,6 +1,7 @@
 # SCIST Linux Challenge RPG
 > Docker Hub Link : https://hub.docker.com/r/curiouslucifer/scist_linux_challenge_rpg  
-> CTF link : https://linux.ctf.scist.org
+> CTF link : https://linux.ctf.scist.org  
+> Author : Curious
 
 ## Usage
 
