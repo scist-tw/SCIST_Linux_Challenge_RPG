@@ -1,6 +1,0 @@
-SSH Configuration : 
-server   : ssh_service
-port     : 22
-username : morpheus
-password : You_dont_know_what_you_dont_know
-

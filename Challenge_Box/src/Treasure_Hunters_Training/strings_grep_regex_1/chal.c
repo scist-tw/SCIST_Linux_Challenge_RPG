@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+char cipher[] = "yxqG4{rpicpSY9NzAGKanYPLTwxWa6tIY8zOCbKNHtmLlIhMDcu5Zyqhj6tEk}";
+char key[] = {0x2a, 0x3b, 0x38, 0x14, 0x60, 0x0, 0x3f, 0x44, 0x1a, 0x17, 0x43, 0x21, 0x6, 0x9, 0x28, 0x25, 0x35, 0x35, 0x2e, 0x21, 0x1d, 0x2c, 0x22, 0x9, 0xb, 0x1f, 0xd, 0x39, 0x56, 0x5f, 0x1a, 0x6f, 0x75, 0x67, 0xa, 0x23, 0x70, 0x3, 0x7e, 0x2b, 0x17, 0x15, 0x45, 0x29, 0x1c, 0x3d, 0x37, 0x20, 0x1d, 0x3c, 0x2, 0x7a, 0x28, 0xa, 0x19, 0x59, 0x1a, 0x69, 0x3b, 0x37, 0x11, 0x0};
+
+void string_xor(char *str1, char *str2, size_t length, char *result){
+    for (int i = 0;i < length;i++){
+        result[i] = str1[i] ^ str2[i];
+    }
+}
+
+int main(){
+    setvbuf(stdin, 0, 2, 0);
+    setvbuf(stdout, 0, 2, 0);
+
+    char new_cipher[63] = {0};
+    printf("I lost my cipher of flag, can you help me find the cipher? It looks like \"some_char{some_char}\"\n");
+    printf("Cipher > ");
+    scanf("%62s", new_cipher);
+    if (strcmp(new_cipher, cipher) != 0){
+        printf("It doesn't look like my flag !\n");
+        return 0;
+    }
+    getchar();
+
+    char flag[63] = {0};
+    string_xor(new_cipher, key, 62, flag);
+    printf("Flag : %s\n", flag);
+
+    return 0;
+}

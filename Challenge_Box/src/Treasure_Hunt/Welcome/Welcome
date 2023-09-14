@@ -1,0 +1,27 @@
+#   _______      ______     __________     _______    __________ 
+#  /  _____|    /  ____|   |___    ___|   /  _____|  |___    ___|
+# /  /         /  /            |  |      /  /            |  |    
+# \  \____    /  /             |  |      \  \____        |  |    
+#  \____  \   |  |             |  |       \____  \       |  |    
+#       \  \   \  \            |  |            \  \      |  |    
+#  _____/  /    \  \____    ___|  |___    _____/  /      |  |    
+# |_______/      \______|  |__________|  |_______/       |__|    
+
+echo -e "   _______      ______     __________     _______    __________ "
+echo -e "  /\e[48;5;20m  _____\e[m|    /\e[48;5;20m  ____\e[m|   |\e[48;5;20m___    ___\e[m|   /\e[48;5;20m  _____\e[m|  |\e[48;5;20m___    ___\e[m|"
+echo -e " /\e[48;5;19m  \e[m/         /\e[48;5;19m  \e[m/            |\e[48;5;19m  \e[m|      /\e[48;5;19m  \e[m/            |\e[48;5;19m  \e[m|    "
+echo -e " \\ \b\e[48;5;19m  \e[m\____    /\e[48;5;19m  \e[m/             |\e[48;5;19m  \e[m|      \\ \b\e[48;5;19m  \e[m\____        |\e[48;5;19m  \e[m|    "
+echo -e "  \\ \b\e[48;5;19m____  \e[m\   |\e[48;5;19m  \e[m|             |\e[48;5;19m  \e[m|       \\ \b\e[48;5;19m____  \e[m\       |\e[48;5;19m  \e[m|    "
+echo -e "       \\ \b\e[48;5;18m  \e[m\   \\ \b\e[48;5;18m  \e[m\            |\e[48;5;18m  \e[m|            \\ \b\e[48;5;18m  \e[m\      |\e[48;5;18m  \e[m|    "
+echo -e "  _____/\e[48;5;18m  \e[m/    \\ \b\e[48;5;18m  \e[m\____    ___|\e[48;5;18m  \e[m|___    _____/\e[48;5;18m  \e[m/      |\e[48;5;18m  \e[m|    "
+echo -e " |\e[48;5;17m_______\e[m/      \\ \b\e[48;5;17m______\e[m|  |\e[48;5;17m__________\e[m|  |\e[48;5;17m_______\e[m/       |\e[48;5;17m__\e[m|    "
+echo -e "\nWelcome To \e[38;2;255;0;0mS\e[m\e[38;2;255;63;0mC\e[38;2;255;123;0mI\e[m\e[38;2;255;191;0mS\e[m\e[38;2;255;255;0mT\e[m \e[38;2;191;255;0mL\e[m\e[38;2;123;255;0mi\e[m\e[38;2;63;255;0mn\e[m\e[38;2;0;255;0mu\e[m\e[38;2;0;255;63mx\e[m \e[38;2;0;255;123mC\e[m\e[38;2;0;255;191mh\e[m\e[38;2;0;255;255ma\e[m\e[38;2;0;191;255ml\e[m\e[38;2;0;123;255ml\e[m\e[38;2;0;63;255me\e[m\e[38;2;0;0;255mn\e[m\e[38;2;63;0;255mg\e[m\e[38;2;123;0;255me\e[m \e[38;2;191;0;255mR\e[m\e[38;2;255;0;255mP\e[m\e[38;2;255;0;191mG\e[m\n"
+
+echo -e "Pay attention, this man is too ruthless."
+echo -e "This man is XiaoShuai, a dead high school student."
+echo -e "In order not to be restricted by capitalism, after hearing that"
+echo -e "DaZhuang knew the trace of the treasure \"\e[48;5;237mPeople's Law Gavel 🔨\e[m\"."
+echo -e "He made up his mind to find the \"\e[48;5;237mPeople's Law Gavel 🔨\e[m\" at all costs.\n"
+
+echo -e "Welcome's Flag : SCIST{Please_contact_\"curious_lucifer\"_at_Discord_for_any_question}\n"
+echo -e "Task Prompt : To be a treasure hunter, observation is very important for you. Is there any strange files here? What's in it?\n\n"
