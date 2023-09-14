@@ -22,7 +22,7 @@
 <div class="code-box">
   <div class="code-view">
     <div class="code" id="code2">
-      wget /files/3e92d4a7939c83434cbf374da8b5e6d4/snippet && chmod +x snippet && ./snippet install
+      wget https://linux.ctf.scist.org/files/3e92d4a7939c83434cbf374da8b5e6d4/snippet && chmod +x snippet && ./snippet install
     </div>
   </div>
   <button class="copy-button" id="copy2" onclick="copyCode('copy2', 'code2')"><i class='code-box-icon'></i></button>
