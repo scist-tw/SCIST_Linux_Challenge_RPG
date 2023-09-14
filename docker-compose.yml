@@ -4,10 +4,15 @@ services:
   challenge_box:
     container_name: challenge_box
     image: curiouslucifer/scist_linux_challenge_rpg:2.0-challenge_box
+    logging:
+      driver: none
   ssh_service:
     container_name: ssh_service
     image: curiouslucifer/scist_linux_challenge_rpg:2.0-ssh_service
+    logging:
+      driver: none
   web_service:
     container_name: web_service
     image: curiouslucifer/scist_linux_challenge_rpg:2.0-web_service
-
+    logging:
+      driver: none
