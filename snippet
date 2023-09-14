@@ -7,6 +7,7 @@ if [[ $# == 0 ]]; then
     echo "Install SCIST Linux Challenge RPG : ./snippet install"
     echo "Start SCIST Linux Challenge RPG   : ./snippet start"
     echo "Stop SCIST Linux Challenge RPG    : ./snippet stop"
+    echo "Remove SCIST Linux Challenge RPG  : ./snippet remove"
     exit 0
 fi
 
@@ -31,4 +32,7 @@ elif [[ $1 == "start" ]]; then
     docker exec -it challenge_box bash
 elif [[ $1 == "stop" ]]; then
     docker compose down
+elif [[ $1 == "remove" ]]; then
+    docker rmi curiouslucifer/scist_linux_challenge_rpg:2.0-web_service curiouslucifer/scist_linux_challenge_rpg:2.0-ssh_service curiouslucifer/scist_linux_challenge_rpg:2.0-challenge_box
+    rm -r ~/SCIST_Linux_Chalenge
 fi
