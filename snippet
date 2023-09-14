@@ -29,10 +29,10 @@ if [[ $1 == "install" ]]; then
     wget https://linux.ctf.scist.org/files/2d0667f5e7a6d40cfa6cda3ce864e655/docker-compose.yml
 elif [[ $1 == "start" ]]; then
     docker compose up -d
-    docker exec -it challenge_box bash
+    exec docker exec -it challenge_box bash
 elif [[ $1 == "stop" ]]; then
     docker compose down
 elif [[ $1 == "remove" ]]; then
     docker rmi curiouslucifer/scist_linux_challenge_rpg:2.0-web_service curiouslucifer/scist_linux_challenge_rpg:2.0-ssh_service curiouslucifer/scist_linux_challenge_rpg:2.0-challenge_box
-    rm -r ~/SCIST_Linux_Chalenge
+    rm -r ~/SCIST_Linux_Challenge
 fi
