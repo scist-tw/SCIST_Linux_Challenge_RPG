@@ -12,7 +12,7 @@ FROM ubuntu:22.04 AS challenge_box
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && apt upgrade -yq && \
-    apt install gcc g++ binutils python3 python3-pip vim unrar zip unzip curl wget iputils-ping sudo sshpass -yq
+    apt install gcc g++ binutils python3 python3-pip vim unrar zip unzip curl wget iputils-ping sudo sshpass file -yq
 
 RUN useradd -ms /bin/bash treasure_hunter
 
