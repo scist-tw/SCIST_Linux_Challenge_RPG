@@ -1,0 +1,245 @@
+[
+    {
+        "name": "Welcome", 
+        "category": "Welcome", 
+        "value": 500, 
+        "description": "Welcome/Welcome.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{W3lcome_T0_LinUx_L@b!}"
+    }, 
+    {
+        "name": "1. Welcome", 
+        "category": "Treasure Hunt", 
+        "value": 500, 
+        "description": "Treasure_Hunt/Welcome.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Please_contact_\"curious_lucifer\"_at_Discord_for_any_question}"
+    }, 
+    {
+        "name": "2. ls & cat", 
+        "category": "Treasure Hunt", 
+        "value": 500, 
+        "description": "Treasure_Hunt/ls_cat.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{I_am_really_normal,_really!...Really???}"
+    }, 
+    {
+        "name": "3. cd", 
+        "category": "Treasure Hunt", 
+        "value": 500, 
+        "description": "Treasure_Hunt/cd.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Yo_Ho,_Yo_Ho!_A_pirate's_life_for_me.}"
+    }, 
+    {
+        "name": "4. file & chmod & execute", 
+        "category": "Treasure Hunt", 
+        "value": 500, 
+        "description": "Treasure_Hunt/file_chmod_execute.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Compass_is_really_easy_to_use!}"
+    }, 
+    {
+        "name": "5. hidden file", 
+        "category": "Treasure Hunt", 
+        "value": 500, 
+        "description": "Treasure_Hunt/hidden_file.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{The_curse_has_been_lifted!}"
+    }, 
+    {
+        "name": "6. create & write file", 
+        "category": "Treasure Hunt", 
+        "value": 500, 
+        "description": "Treasure_Hunt/create_write_file.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{According_to_legend,_this_is_a_Viking_treasure_...}"
+    }, 
+    {
+        "name": "7. mkdir & mv 1", 
+        "category": "Treasure Hunt", 
+        "value": 500, 
+        "description": "Treasure_Hunt/mkdir_mv_1.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Magic_engine_doesn't_like_sinking_ships_><}"
+    }, 
+    {
+        "name": "8. mkdir & mv 2", 
+        "category": "Treasure Hunt", 
+        "value": 500, 
+        "description": "Treasure_Hunt/mkdir_mv_2.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Yes,_that's_right!_Wait!_Ship_is_sinking_!?!}"
+    }, 
+    {
+        "name": "9. find", 
+        "category": "Treasure Hunt", 
+        "value": 500, 
+        "description": "Treasure_Hunt/find.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{I_found_the_\"People's_Law_Gavel\"_!!!}"
+    }, 
+    {
+        "name": "10. unzip & rar & tar", 
+        "category": "Treasure Hunt", 
+        "value": 500, 
+        "description": "Treasure_Hunt/unzip_rar_tar.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Hit_Curious_or_not,_this_is_a_question_**}"
+    }, 
+    {
+        "name": "1. strings", 
+        "category": "Side Quest : Treasure Hunter's Training", 
+        "value": 500, 
+        "description": "Treasure_Hunters_Training/strings.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Your_eyes_are_really_good,_wait?_You_cheat?}"
+    }, 
+    {
+        "name": "2. strings & grep", 
+        "category": "Side Quest : Treasure Hunter's Training", 
+        "value": 500, 
+        "description": "Treasure_Hunters_Training/strings_grep.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Oh_I_forgot_to_print_it_out_@@}"
+    }, 
+    {
+        "name": "3. strings & grep & regex 1", 
+        "category": "Side Quest : Treasure Hunter's Training", 
+        "value": 500, 
+        "description": "Treasure_Hunters_Training/strings_grep_regex_1.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{M4st3r_0f_tre@surE_hun7in&,_pl3a5e_a(ept_mY_wOrsh1p_Orz}"
+    }, 
+    {
+        "name": "4. strings & grep & regex 2", 
+        "category": "Side Quest : Treasure Hunter's Training", 
+        "value": 500, 
+        "description": "Treasure_Hunters_Training/strings_grep_regex_2.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Wh4t_th3_hE1l_i5_tHis_fi1e_s0_MesSy?_HIYA!}"
+    }, 
+    {
+        "name": "5. xargs", 
+        "category": "Side Quest : Treasure Hunter's Training", 
+        "value": 500, 
+        "description": "Treasure_Hunters_Training/xargs.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{WOW_WOw_Wow_woo_woW_wOW_WOW}"
+    }, 
+    {
+        "name": "1. hex", 
+        "category": "Side Quest : Chinese Parents' Challenge", 
+        "value": 500, 
+        "description": "Chinese_Parents_Challenge/hex.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{I_hate_math,_but_I_like_this_question._^^}"
+    }, 
+    {
+        "name": "2. base64", 
+        "category": "Side Quest : Chinese Parents' Challenge", 
+        "value": 500, 
+        "description": "Chinese_Parents_Challenge/base64.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{A_p1e(e_0f_c@ke_~}"
+    }, 
+    {
+        "name": "3. run C", 
+        "category": "Side Quest : Chinese Parents' Challenge", 
+        "value": 500, 
+        "description": "Chinese_Parents_Challenge/run_c.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Well,_then_how_to_compile_C++_?}"
+    }, 
+    {
+        "name": "4. run Python", 
+        "category": "Side Quest : Chinese Parents' Challenge", 
+        "value": 500, 
+        "description": "Chinese_Parents_Challenge/run_python.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{I_really_think_Chinese_parents_are_great,_REALLY~~_**}"
+    }, 
+    {
+        "name": "1. id & groups", 
+        "category": "Side Quest : Special Identity", 
+        "value": 500, 
+        "description": "Special_Identity/id_groups.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{GGGGGGIIIIIIDDDDDD}"
+    }, 
+    {
+        "name": "2. curl", 
+        "category": "Side Quest : Special Identity", 
+        "value": 500, 
+        "description": "Special_Identity/curl.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{The_devil_is_in_the_details_##}"
+    }, 
+    {
+        "name": "3. wget", 
+        "category": "Side Quest : Special Identity", 
+        "value": 500, 
+        "description": "Special_Identity/wget.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Do_you_know_who_you_are?}"
+    }, 
+    {
+        "name": "4. ssh", 
+        "category": "Side Quest : Special Identity", 
+        "value": 500, 
+        "description": "Special_Identity/ssh.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{The_Matrix_is_every_where._It's_all_around_as.}"
+    }, 
+    {
+        "name": "5. redirect", 
+        "category": "Side Quest : Special Identity", 
+        "value": 500, 
+        "description": "Special_Identity/redirect.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{password:Th1s_i5_Smiths_p4ssWorD}"
+    }, 
+    {
+        "name": "6. ssh medium", 
+        "category": "Side Quest : Special Identity", 
+        "value": 500, 
+        "description": "Special_Identity/ssh_medium.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Th1s_is_n0t_AIS3_EOF_2023_!!!}"
+    }, 
+    {
+        "name": "7. ssh advance", 
+        "category": "Side Quest : Special Identity", 
+        "value": 500, 
+        "description": "Special_Identity/ssh_advance.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Welcome_..._to_the_real_world_!}"
+    }
+]
